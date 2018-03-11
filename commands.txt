@@ -1,0 +1,17 @@
+###建立一个新的库new###
+#在github.com上建立一个新的库new并得到对应ssh
+#打开git bush进入本地指定文件夹
+#新建文件夹（库）
+mkdir new
+#初始化
+git init
+#远程push
+git remote add origin https://github.com/... #对应ssh
+git push -u origin master #据说首次需要参数u
+###文件的添加和更新###
+#
+#
+#
+#
+#
+#
