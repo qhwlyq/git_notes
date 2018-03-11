@@ -1,15 +1,19 @@
-###½¨Á¢Ò»¸öĞÂµÄ¿ânew###
-#ÔÚgithub.comÉÏ½¨Á¢Ò»¸öĞÂµÄ¿ânew²¢µÃµ½¶ÔÓ¦ssh
-#´ò¿ªgit bush½øÈë±¾µØÖ¸¶¨ÎÄ¼ş¼Ğ
-#ĞÂ½¨ÎÄ¼ş¼Ğ£¨¿â£©
+###å»ºç«‹ä¸€ä¸ªæ–°çš„åº“new###
+#åœ¨github.comä¸Šå»ºç«‹ä¸€ä¸ªæ–°çš„åº“newå¹¶å¾—åˆ°å¯¹åº”ssh
+#æ‰“å¼€git bushè¿›å…¥æœ¬åœ°æŒ‡å®šæ–‡ä»¶å¤¹
+#æ–°å»ºæ–‡ä»¶å¤¹ï¼ˆåº“ï¼‰
 mkdir new
-#³õÊ¼»¯
+#åˆå§‹åŒ–
 git init
-#Ô¶³Ìpush
-git remote add origin https://github.com/... #¶ÔÓ¦ssh
-git push -u origin master #¾İËµÊ×´ÎĞèÒª²ÎÊıu
-###ÎÄ¼şµÄÌí¼ÓºÍ¸üĞÂ###
-#
+#è¿œç¨‹push
+git remote add origin https://github.com/... #å¯¹åº”ssh
+git push -u origin master #æ®è¯´é¦–æ¬¡éœ€è¦å‚æ•°u
+
+###æ–‡ä»¶çš„æ·»åŠ å’Œæ›´æ–°###
+git add -A #å‚æ•°Aå¯æ›¿æ¢ä¸ºåŒç›®å½•ä¸‹ä»»ä¸€æ–‡ä»¶å
+git commit -m "your commit"
+git push origin master #æ›´æ–°åˆ°githubæˆåŠŸ
+
 #
 #
 #
